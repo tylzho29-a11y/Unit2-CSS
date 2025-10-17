@@ -61,7 +61,10 @@ body {
    - Add specific styling to the first-level list items
    Hint: Use child selector (>)
 */
-
+.sidebar > div > ul {
+    color: darkred;
+    font-size: 18px;
+}
 
 /* ==========================================
    ADJACENT SIBLING SELECTOR CHALLENGES
@@ -75,7 +78,7 @@ body {
 .recent-posts h3 + p {
     font-style: italic;
     color: #222;
-    
+
 }
 
 /* ==========================================
@@ -89,7 +92,13 @@ body {
    - Give it a bold, slightly larger style
    Hint: Combine multiple selector types
 */
+.article-content p1 {
+    font-style: bold;
+    font-size: 24px;
+    color: darkred;
+}
 
+.article-content 
 
 /* ==========================================
    ADVANCED CHALLENGE (BONUS)
