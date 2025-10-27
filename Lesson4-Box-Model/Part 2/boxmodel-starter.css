@@ -187,3 +187,13 @@ h2 {
     font-size: 0.85em;
     line-height: 1.5;
 }
+
+
+.card-challenge {
+    width: 300px;
+    padding: 25px;
+    border: 2px solid #676767;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #999999;
+}
